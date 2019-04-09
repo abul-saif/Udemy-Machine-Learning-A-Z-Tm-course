@@ -26,7 +26,7 @@ X[:, 1:3] = imputer.transform(X[:, 1:3]) """
 
 #Encoding categorial data
 """ from sklearn.preprocessing import LabelEncoder , OneHotEncoder
-#LabelLearn simply categorises the data in terms of no. whick may lead to problems in equations
+#LabelLearn simply categorises the data in terms of no. whick may lead to problems in equations (eg . 1 , 2 , 3 ....)
 #OneHotEncode marks the categories to 1 on happenning. 
 
 labelencoder_X = LabelEncoder()
